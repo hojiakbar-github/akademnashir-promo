@@ -1,6 +1,15 @@
-.site-header {
-
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
 }
+
+/* SITE-HEADER */
+.site-header {
+  background-color: #fff;
+}
+
 
 .sitenav-link {
  font-weight: 500;
@@ -44,19 +53,14 @@ background-color: #ff7500;
 .hero-heading {
 font-size: 40px;
 line-height: 1.2;
-letter-spacing: 0.5px;
-}
-
-.hero-text {
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
+font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
 }
 
 .features-heading {
 width: 440px;
 font-size: 72px;
 line-height: 1.2;
+font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
 letter-spacing: 0.5;
 }
 
@@ -74,20 +78,13 @@ width: 340px;
 .feature-title {
   font-size: 24px;
   line-height: 1.2;
-  color: #000000;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
 }
 
 .feature-icon-wrapper {
 width: 100px;
 height: 100px;
 background-color: rgba(255, 117, 0, 0.2);
-}
-
-.feature-info {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
 }
 
 .promo {
@@ -102,11 +99,7 @@ background-color: rgba(255, 117, 0, 0.2);
 .promo-heading {
   font-size: 40px;
   line-height: 48px;
-}
-
-.promo-text {
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
 }
 
 .promo-highlight {
@@ -126,6 +119,11 @@ background-color: rgba(255, 117, 0, 0.2);
 .site-footer-divider {
   height: 0.2px;
   background-color: rgba(37, 36, 332, 0.5);
+}
+
+.site-footer-linka a {
+  width: 224px;
+  line-height: 19px;
 }
 
 ul a {

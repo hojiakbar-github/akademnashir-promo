@@ -52,6 +52,7 @@ background-color: #ff7500;
 
 .hero-content {
 width: 390px;
+display: flex;
 }
 
 .hero-img {

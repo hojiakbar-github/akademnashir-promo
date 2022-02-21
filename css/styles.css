@@ -9,7 +9,20 @@ body {
 .site-header {
   display: flex;
   justify-content: space-between
+  align-items:center
   background-color: #fff;
+  }
+
+  .logo-link {
+transition: opacity 0.4s ease;
+  }
+
+  .logo-link:hover {
+    opacity: 0.8;
+  }
+
+  .logo-link:active {
+    opacity: 0.6;
   }
 
   .site-header-right {

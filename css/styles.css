@@ -11,39 +11,106 @@ body {
   justify-content: space-between
   align-items:center
   background-color: #fff;
-  }
+}
 
-  .logo-link {
-transition: opacity 0.4s ease;
-  }
-
-  .logo-link:hover {
-    opacity: 0.8;
-  }
-
-  .logo-link:active {
-    opacity: 0.6;
-  }
-
-  .site-header-right {
-    display: flex;
-  }
-
-.sitenav {
+.site-header-actions {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SITENAV */
+sitenav-list {
+  display: flex;
+  list-style: none;
 }
 
 .sitenav-link {
- font-weight: 500;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1px;
-text-transform: uppercase;
-text-decoration: none;
-color: black;
-width: 300px;
-font-weight: bold;
-text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.main-link {
+  font-style: 13px;
+  line-height: 15;
+  background-color: #ff7500;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero-content {
+  width: 390px;
+}
+
+.logo-link {
+transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
+.logo-link:active {
+    opacity: 0.6;
+}
+
+.orarge-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-heading {
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+}
+
+/* FEATURES */
+.heading {
+  width: 340px;
+}
+
+.feature-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-title {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
+}
+
+.promo-content {
+  width: 440px;
+}
+
+.sitenav {
+  display: flex;
 }
 
 .main-link {
@@ -55,82 +122,9 @@ color: #fff;
 background-color: #ff7500;
 }
 
-.hero {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  background-color: #252420;
-  color: #fff;
-}
 
 .hero-content {
 width: 390px;
-display: flex;
-}
-
-.hero-img {
-width: 510px;
-height: 510px;
-}
-
-.orarge-line {
-width: 80px;
-height: 3px;
-background-color: #ff7500;
-}
-
-.hero-heading {
-font-size: 40px;
-line-height: 1.2;
-font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
-}
-
-.features-heading {
-width: 440px;
-font-size: 72px;
-line-height: 1.2;
-font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
-letter-spacing: 0.5;
-}
-
-.feature-list {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-}
-
-.feature {
-width: 340px;
-}
-
-
-.fon {
-  width: 1440px;
-  color: #ff7500;
-}
-
-.feature-title {
-  font-size: 24px;
-  line-height: 1.2;
-  font-family: "Roboto Condensed" "Arial" "Roboto" sans-serif;
-}
-
-.feature-icon-wrapper {
-width: 100px;
-height: 100px;
-background-color: rgba(255, 117, 0, 0.2);
-}
-
-.promo {
-  float: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #252420;
-  color: #fff;
-}
-
-.promo-content {
-  width: 440px;
 }
 
 .promo-heading {
@@ -149,14 +143,18 @@ background-color: rgba(255, 117, 0, 0.2);
   object-fit: cover;
 }
 
+.site-footer {
+  background-color: #f8f8f8;
+}
+
 .site-footer-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-footer {
-    background-color: #f8f8f8;
+.site-footer ul {
+  list-style: none;
 }
 
 .site-footer-socials {
@@ -165,27 +163,20 @@ background-color: rgba(255, 117, 0, 0.2);
 }
 
 .site-footer-divider {
-  height: 0.2px;
-  background-color: rgba(37, 36, 332, 0.5);
+  height: 2px;
+  background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-bottom {
   display: flex;
-  }
-
-.site-footer-linka a {
-  width: 224px;
-  line-height: 19px;
 }
 
-ul a {
+.site-footer-links {
+  width: 224px;
+  line-height: 19;
+}
+
+.site-footer-links a {
   text-decoration: none;
   color: #252420;
-  sz: 16px;
-  line-height: 19px;
-  width: 224px;
-}
-
-ul {
-  list-style:  none;
 }
